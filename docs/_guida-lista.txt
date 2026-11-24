@@ -1,0 +1,6 @@
+README.md
+CHANGELOG.md
+AGENTS.md
+docs/how-it-works.md
+docs/docker-mcp-sqlite.md
+docs/node-summaries-rfc.md
