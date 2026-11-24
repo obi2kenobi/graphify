@@ -14,7 +14,7 @@ AGENTS.md	AGGIORNATO	read graphify-out/GRAPH_REPORT.md before answering architec
 AGENTS.md	AGGIORNATO	graphify update . after modifying code	rule present	OK	OK
 AGENTS.md	AGGIORNATO	wiki/index.md navigation rule if exists	rule present	OK	OK
 AGENTS.md	AGGIORNATO	graphify-out/ presence	graphify-out/ in repo (generated)	not present in checkout (generated artifact)	NON-VERIFICABILE
-docs/how-it-works.md	DA CORREGGERE	25 languages supported	25	31 extractors in graphify/extractors/ and 31 unique tree-sitter grammars in pyproject.toml	DIVERSO
+docs/how-it-works.md	AGGIORNATO	25 languages supported	25	31 extractors in graphify/extractors/ and 31 unique tree-sitter grammars in pyproject.toml; docs updated from 25 to 31	CORRETTO
 docs/how-it-works.md	AGGIORNATO	three passes (code / video-audio / docs)	three passes	OK (how-it-works.md head)	OK
 docs/how-it-works.md	AGGIORNATO	Leiden algorithm for communities	Leiden	OK (README + pyproject leiden extra)	OK
 docs/how-it-works.md	AGGIORNATO	EXTRACTED/INFERRED/AMBIGUOUS confidence tags	three labels	OK (graphify/analyze.py AMBIGUOUS/INFERRED/EXTRACTED)	OK
