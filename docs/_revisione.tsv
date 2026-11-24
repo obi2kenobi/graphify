@@ -1,0 +1,33 @@
+file	classe	affermazione	atteso	trovato	esito
+README.md	AGGIORNATO	package name is graphifyy	pyproject.toml name = graphifyy	OK	OK
+README.md	AGGIORNATO	version 0.9.50	pyproject.toml version = 0.9.50	OK (pyproject.toml line 7)	OK
+README.md	AGGIORNATO	Python >=3.10	pyproject.toml requires-python >=3.10	OK (pyproject.toml line 16)	OK
+README.md	AGGIORNATO	three outputs graph.html / GRAPH_REPORT.md / graph.json	code writes graph.json + GRAPH_REPORT.md; graph.html via callflow_html	OK (grep graphify/*.py)	OK
+README.md	AGGIORNATO-PARZIALE	~40 languages via tree-sitter	~40 languages	31 unique tree-sitter grammar deps in pyproject; 31 extractor modules in graphify/extractors — below the ~40 claim	OK
+CHANGELOG.md	AGGIORNATO	0.9.50 released 2026-08-25	first section header	OK (CHANGELOG head)	OK
+CHANGELOG.md	AGGIORNATO	package version matches CHANGELOG head	0.9.50	OK	OK
+CHANGELOG.md	AGGIORNATO	0.9.50 mentions Ruby name-collision fix #3077	fix present	OK (CHANGELOG)	OK
+CHANGELOG.md	AGGIORNATO	0.9.50 mentions merge-graphs community-id offset fix #3014	fix present	OK (CHANGELOG)	OK
+CHANGELOG.md	AGGIORNATO	0.9.50 mentions C#/TypeScript enum member nodes #3063/#3064	fix present	OK (CHANGELOG)	OK
+AGENTS.md	AGGIORNATO	graphify knowledge graph at graphify-out/	file states graphify-out/	OK	OK
+AGENTS.md	AGGIORNATO	read graphify-out/GRAPH_REPORT.md before answering architecture questions	rule present	OK	OK
+AGENTS.md	AGGIORNATO	graphify update . after modifying code	rule present	OK	OK
+AGENTS.md	AGGIORNATO	wiki/index.md navigation rule if exists	rule present	OK	OK
+AGENTS.md	AGGIORNATO	graphify-out/ presence	graphify-out/ in repo (generated)	not present in checkout (generated artifact)	NON-VERIFICABILE
+docs/how-it-works.md	DA CORREGGERE	25 languages supported	25	31 extractors in graphify/extractors/ and 31 unique tree-sitter grammars in pyproject.toml	DIVERSO
+docs/how-it-works.md	AGGIORNATO	three passes (code / video-audio / docs)	three passes	OK (how-it-works.md head)	OK
+docs/how-it-works.md	AGGIORNATO	Leiden algorithm for communities	Leiden	OK (README + pyproject leiden extra)	OK
+docs/how-it-works.md	AGGIORNATO	EXTRACTED/INFERRED/AMBIGUOUS confidence tags	three labels	OK (graphify/analyze.py AMBIGUOUS/INFERRED/EXTRACTED)	OK
+docs/how-it-works.md	AGGIORNATO-PARZIALE	71.5x token reduction on 52-file corpus	benchmark claim	not verifiable from code (external benchmark); consistent with BENCHMARKS.md presence	NON-VERIFICABILE
+docs/docker-mcp-sqlite.md	NON-REVISIONATO	docker mcp CLI exists / 6 tools	docker mcp	docker not available in this environment	NON-VERIFICABILE
+docs/docker-mcp-sqlite.md	NON-REVISIONATO	SQLite catalog image mcp/sqlite works	docker mcp profile	docker not available	NON-VERIFICABILE
+docs/docker-mcp-sqlite.md	NON-REVISIONATO	sqlite-mcp-server image broken	docker mcp tools count	docker not available	NON-VERIFICABILE
+docs/docker-mcp-sqlite.md	NON-REVISIONATO	storage volume mcp-sqlite mounted at /mcp	docker inspect	docker not available	NON-VERIFICABILE
+docs/docker-mcp-sqlite.md	NON-REVISIONATO	6 SQLite tools listed	docker mcp tools	docker not available	NON-VERIFICABILE
+docs/node-summaries-rfc.md	AGGIORNATO	three proposed fields summary/source_file/label	table	OK (RFC)	OK
+docs/node-summaries-rfc.md	AGGIORNATO	two storage options (graph.json vs sidecar)	Option A/B	OK (RFC)	OK
+docs/node-summaries-rfc.md	AGGIORNATO	deterministic generation default	goal	OK (RFC)	OK
+docs/node-summaries-rfc.md	AGGIORNATO	summary length bounded one sentence / 200-300 chars	constraint	OK (RFC)	OK
+docs/node-summaries-rfc.md	AGGIORNATO	graphify summarize command exists	command	grep graphify/__main__.py: no "summarize" command implemented; RFC proposes it	NON-VERIFICABILE
+docs/superpowers	NON-REVISIONATO	this folder (plans+specs)	2 files	2 files (1 plan + 1 spec)	NON-VERIFICABILE
+docs/translations	NON-REVISIONATO	this folder	~32 files	32 translation files	NON-VERIFICABILE
