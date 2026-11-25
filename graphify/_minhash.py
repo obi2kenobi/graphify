@@ -44,8 +44,13 @@ class MinHash:
         self._a, self._b = _mh_coeffs(num_perm)
 
     def update(self, v: bytes) -> None:
-        hv = np.uint64(struct.unpack("<I", hashlib.sha1(v).digest()[:4])[0])
-        phv = np.bitwise_and((self._a * hv + self._b) % _MP, _MH)
+        hv = struct.unpack("<I", hashlib.sha1(v).digest()[:4])[0]
+        mp = int(_MP)
+        phv = np.array(
+            [(int(self._a[i]) * hv + int(self._b[i])) % mp & 0xFFFFFFFF
+             for i in range(self.num_perm)],
+            dtype=np.uint64,
+        )
         self.hashvalues = np.minimum(self.hashvalues, phv)
 
 
