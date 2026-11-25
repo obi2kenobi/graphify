@@ -1,6 +1,10 @@
+docs/LLM-GUIDA.md
+docs/how-it-works.md
 README.md
+ARCHITECTURE.md
+BENCHMARKS.md
 CHANGELOG.md
 AGENTS.md
-docs/how-it-works.md
+SECURITY.md
 docs/docker-mcp-sqlite.md
 docs/node-summaries-rfc.md

@@ -1,45 +1,49 @@
 documento	righe	ultimo_commit
-AGENTS.md	8	43d54ac 2026-08-25
-CHANGELOG.md	1901	43d54ac 2026-08-25
-README.md	912	43d54ac 2026-08-25
-docs/docker-mcp-sqlite.md	138	43d54ac 2026-08-25
-docs/how-it-works.md	101	43d54ac 2026-08-25
-docs/node-summaries-rfc.md	186	43d54ac 2026-08-25
-docs/superpowers/plans/2026-05-04-incremental-updates-dedup.md	1143	43d54ac 2026-08-25
-docs/superpowers/specs/2026-05-04-incremental-updates-dedup-design.md	133	43d54ac 2026-08-25
-docs/translations/README.ar-SA.md	177	43d54ac 2026-08-25
-docs/translations/README.cs-CZ.md	77	43d54ac 2026-08-25
-docs/translations/README.da-DK.md	77	43d54ac 2026-08-25
-docs/translations/README.de-DE.md	180	43d54ac 2026-08-25
-docs/translations/README.el-GR.md	77	43d54ac 2026-08-25
-docs/translations/README.es-ES.md	170	43d54ac 2026-08-25
-docs/translations/README.fa-IR.md	572	43d54ac 2026-08-25
-docs/translations/README.fi-FI.md	77	43d54ac 2026-08-25
-docs/translations/README.fil-PH.md	77	43d54ac 2026-08-25
-docs/translations/README.fr-FR.md	170	43d54ac 2026-08-25
-docs/translations/README.he-IL.md	849	43d54ac 2026-08-25
-docs/translations/README.hi-IN.md	143	43d54ac 2026-08-25
-docs/translations/README.hu-HU.md	77	43d54ac 2026-08-25
-docs/translations/README.id-ID.md	77	43d54ac 2026-08-25
-docs/translations/README.it-IT.md	78	43d54ac 2026-08-25
-docs/translations/README.ja-JP.md	238	43d54ac 2026-08-25
-docs/translations/README.ko-KR.md	282	43d54ac 2026-08-25
-docs/translations/README.nl-NL.md	77	43d54ac 2026-08-25
-docs/translations/README.no-NO.md	77	43d54ac 2026-08-25
-docs/translations/README.pl-PL.md	78	43d54ac 2026-08-25
-docs/translations/README.pt-BR.md	170	43d54ac 2026-08-25
-docs/translations/README.ro-RO.md	77	43d54ac 2026-08-25
-docs/translations/README.ru-RU.md	170	43d54ac 2026-08-25
-docs/translations/README.sv-SE.md	77	43d54ac 2026-08-25
-docs/translations/README.th-TH.md	77	43d54ac 2026-08-25
-docs/translations/README.tr-TR.md	77	43d54ac 2026-08-25
-docs/translations/README.uk-UA.md	592	43d54ac 2026-08-25
-docs/translations/README.uz-UZ.md	170	43d54ac 2026-08-25
-docs/translations/README.vi-VN.md	77	43d54ac 2026-08-25
-docs/translations/README.zh-CN.md	226	43d54ac 2026-08-25
-docs/translations/README.zh-TW.md	77	43d54ac 2026-08-25
-worked/example/README.md	56	43d54ac 2026-08-25
-worked/httpx/README.md	43	43d54ac 2026-08-25
-worked/karpathy-repos/README.md	73	43d54ac 2026-08-25
-worked/mixed-corpus/README.md	43	43d54ac 2026-08-25
-worked/rsl-siege-manager/README.md	88	43d54ac 2026-08-25
+AGENTS.md	8	43d54ac Tue Aug 25 18:24:12 2026
+ARCHITECTURE.md	102	43d54ac Tue Aug 25 18:24:12 2026
+BENCHMARKS.md	187	43d54ac Tue Aug 25 18:24:12 2026
+CHANGELOG.md	1901	43d54ac Tue Aug 25 18:24:12 2026
+README.md	912	43d54ac Tue Aug 25 18:24:12 2026
+SECURITY.md	54	43d54ac Tue Aug 25 18:24:12 2026
+docs/LLM-GUIDA.md	26	101c9d5 Tue Nov 24 12:59:36 2026
+docs/docker-mcp-sqlite.md	138	43d54ac Tue Aug 25 18:24:12 2026
+docs/how-it-works.md	101	6949095 Tue Nov 24 12:55:00 2026
+docs/node-summaries-rfc.md	186	43d54ac Tue Aug 25 18:24:12 2026
+docs/superpowers/plans/2026-05-04-incremental-updates-dedup.md	1143	43d54ac Tue Aug 25 18:24:12 2026
+docs/superpowers/specs/2026-05-04-incremental-updates-dedup-design.md	133	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.ar-SA.md	177	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.cs-CZ.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.da-DK.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.de-DE.md	180	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.el-GR.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.es-ES.md	170	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.fa-IR.md	572	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.fi-FI.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.fil-PH.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.fr-FR.md	170	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.he-IL.md	849	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.hi-IN.md	143	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.hu-HU.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.id-ID.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.it-IT.md	78	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.ja-JP.md	238	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.ko-KR.md	282	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.nl-NL.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.no-NO.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.pl-PL.md	78	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.pt-BR.md	170	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.ro-RO.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.ru-RU.md	170	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.sv-SE.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.th-TH.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.tr-TR.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.uk-UA.md	592	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.uz-UZ.md	170	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.vi-VN.md	77	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.zh-CN.md	226	43d54ac Tue Aug 25 18:24:12 2026
+docs/translations/README.zh-TW.md	77	43d54ac Tue Aug 25 18:24:12 2026
+worked/example/README.md	56	43d54ac Tue Aug 25 18:24:12 2026
+worked/httpx/README.md	43	43d54ac Tue Aug 25 18:24:12 2026
+worked/karpathy-repos/README.md	73	43d54ac Tue Aug 25 18:24:12 2026
+worked/mixed-corpus/README.md	43	43d54ac Tue Aug 25 18:24:12 2026
+worked/rsl-siege-manager/README.md	88	43d54ac Tue Aug 25 18:24:12 2026

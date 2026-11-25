@@ -31,3 +31,23 @@ docs/node-summaries-rfc.md	AGGIORNATO	summary length bounded one sentence / 200-
 docs/node-summaries-rfc.md	AGGIORNATO	graphify summarize command exists	command	grep graphify/__main__.py: no "summarize" command implemented; RFC proposes it	NON-VERIFICABILE
 docs/superpowers	NON-REVISIONATO	this folder (plans+specs)	2 files	2 files (1 plan + 1 spec)	NON-VERIFICABILE
 docs/translations	NON-REVISIONATO	this folder	~32 files	32 translation files	NON-VERIFICABILE
+ARCHITECTURE.md	AGGIORNATO	pipeline detect->extract->build->cluster->analyze->report->export	pipeline listed in ARCHITECTURE.md	same order found in ARCHITECTURE.md pipeline block	OK
+ARCHITECTURE.md	AGGIORNATO	detect.py exposes detect(root)	def detect(root	graphify/detect.py:1665 detect(root, *, follow_symlinks...)	OK
+ARCHITECTURE.md	AGGIORNATO	build.py exposes build(extractions) and build_from_json	both defs	graphify/build.py:1340 build(), :798 build_from_json()	OK
+ARCHITECTURE.md	AGGIORNATO	report.py generate() exists	def generate(	graphify/report.py:96 def generate(	OK
+ARCHITECTURE.md	AGGIORNATO	cluster.py exposes cluster()	def cluster(	graphify/cluster.py:134 def cluster(	OK
+BENCHMARKS.md	AGGIORNATO	LOCOMO recall@10 0.497	0.497	BENCHMARKS.md Results at a glance table	OK
+BENCHMARKS.md	AGGIORNATO	LOCOMO QA accuracy 45.3%	45.3%	BENCHMARKS.md Summary + table	OK
+BENCHMARKS.md	AGGIORNATO	LongMemEval-S 76%	76%	BENCHMARKS.md Results table	OK
+BENCHMARKS.md	AGGIORNATO	zero LLM credits for graph build	$0	BENCHMARKS.md Results table row: graph build LLM credits	OK
+BENCHMARKS.md	AGGIORNATO	judge blind-validated 90.6% agreement, Cohen's kappa 0.81	90.6% / 0.81	BENCHMARKS.md Summary	OK
+SECURITY.md	AGGIORNATO	only http/https schemes allowed	_ALLOWED_SCHEMES = {http,https}	graphify/security.py:20	OK
+SECURITY.md	AGGIORNATO	50 MB binary fetch cap	50 MB	graphify/security.py:21 _MAX_FETCH_BYTES = 52_428_800	OK
+SECURITY.md	AGGIORNATO	10 MB text fetch cap	10 MB	graphify/security.py:22 _MAX_TEXT_BYTES = 10_485_760	OK
+SECURITY.md	AGGIORNATO	sanitize_label caps length	cap at 256 chars	graphify/security.py:403 _MAX_LABEL_LEN (256 in doc)	OK
+SECURITY.md	AGGIORNATO	validate_graph_path requires base exists and stays inside graphify-out	validate_graph_path def	graphify/security.py:315 def validate_graph_path()	OK
+docs/LLM-GUIDA.md	AGGIORNATO	package graphifyy 0.9.50	name graphifyy, version 0.9.50	pyproject.toml name/version match	OK
+docs/LLM-GUIDA.md	AGGIORNATO	Apache-2.0 license	Apache-2.0	pyproject.toml line 10 license = Apache-2.0	OK
+docs/LLM-GUIDA.md	AGGIORNATO	Python >= 3.10	requires-python >=3.10	pyproject.toml line 16	OK
+docs/LLM-GUIDA.md	AGGIORNATO	docs/ contains how-it-works, docker-mcp-sqlite, node-summaries-rfc	three guide docs present	docs/ listing shows the three files	OK
+docs/LLM-GUIDA.md	AGGIORNATO	docs/archivio/ not present	no archivio dir	docs/ listing has no archivio/	OK
