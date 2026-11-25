@@ -35,3 +35,4 @@ Guida per un LLM che entra in questo repository. Max 120 righe.
 - Nessuno segreto nei documenti; solo segnaposto.
 - 31 extractor tree-sitter in graphify/extractors/ (non ~40).
 - Perimetro tappa M-017.152: CLAUDE.md, docs/LLM-GUIDA.md, imparato/graphify.md, docs/_*. Nessun codice, nessun push.
+- Istruzioni d'uso: docs/ISTRUZIONI.md
