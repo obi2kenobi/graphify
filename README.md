@@ -799,6 +799,7 @@ graphify label ./my-project --backend=openai --model gpt-4o   # force a specific
 ## Learn more
 
 - [Istruzioni d'uso](docs/ISTRUZIONI.md) — uso dei software del repo
+- [Scheda tecnica](docs/SCHEDA-TECNICA.md) — scheda sintetica per umani e AI
 - [How it works](docs/how-it-works.md) — the extraction pipeline, community detection, confidence scoring, benchmarks
 - [ARCHITECTURE.md](ARCHITECTURE.md) — module breakdown, how to add a language
 - [Optional integrations](docs/docker-mcp-sqlite.md) — Docker MCP Toolkit + SQLite
